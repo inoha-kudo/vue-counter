@@ -5,7 +5,7 @@ export const useCounter = (initialCount = 0) => {
     const counter = shallowRef(Counter.create(initialCount));
 
     return {
-        count: computed(() => counter.value.count.value),
+        count: computed(() => counter.value.count()),
         increment: () => (counter.value = counter.value.increment()),
         decrement: () => (counter.value = counter.value.decrement()),
         reset: () => (counter.value = Counter.create(initialCount)),

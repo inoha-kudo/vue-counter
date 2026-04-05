@@ -1,6 +1,6 @@
 {
     "name": "@miraiportal/vue-counter",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "exports": {
         ".": "./resources/js/index.ts"
@@ -9,7 +9,7 @@
         "test": "vitest run"
     },
     "dependencies": {
-        "@miraiportal/counter": "^1.0.2"
+        "@miraiportal/counter": "^1.1.0"
     },
     "devDependencies": {
         "vite": "^8.0.3",
